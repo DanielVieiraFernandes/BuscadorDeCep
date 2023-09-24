@@ -8,8 +8,6 @@ export const BuscarCep = () =>{
     
     const handleCep = async () =>{
 
-       
-
         try{
             const apiUrl = `https://viacep.com.br/ws/${input}/json/`
             const response = await fetch(apiUrl)
@@ -25,6 +23,8 @@ export const BuscarCep = () =>{
 
         }catch(error){
             alert(`Erro ao buscar CEP`);
+           
+            
     }   
 
          setInput("")
