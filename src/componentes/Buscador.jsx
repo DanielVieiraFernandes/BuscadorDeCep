@@ -25,8 +25,6 @@ export const BuscarCep = () =>{
 
         }catch(error){
             alert(`Erro ao buscar CEP`);
-           
-            
     }   
 
          setInput("")
