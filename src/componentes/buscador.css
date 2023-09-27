@@ -11,6 +11,11 @@ body {
     background:  url('./img/fundo1.png'); /* Cor de fundo azul ccdeleste */
     background-size: cover;
     overflow: hidden;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
 }
   
 .container{
@@ -18,8 +23,8 @@ body {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    width: 80%;
-    height: 100vh;
+    width: 100%;   
+    flex-wrap: wrap;
 }
 .container h1{
     margin: 30px;
@@ -56,11 +61,13 @@ body {
 .containerInfo{
     display: flex;
     flex-direction: column;
-    margin: 30px;
+    margin: 5px;
+    height: 300px;
+    width: 300px;
     background-color: rgb(255, 255, 255);
     padding: 20px;
     border-radius: 20px;
-    width: 400px;
+    flex: 1 1 0px;
 }
 .containerInfo span{
     margin: 10px;
