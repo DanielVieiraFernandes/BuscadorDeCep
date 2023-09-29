@@ -11,7 +11,7 @@ body {
     background:  url('./img/fundo1.png'); /* Cor de fundo azul celeste */
     background-size: cover;
     overflow: hidden;
-    height: 100vh;
+    height: 99vh;
     display: flex;
     align-items: center;
     justify-content: center;
